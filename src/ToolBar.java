@@ -85,14 +85,14 @@ public class ToolBar implements ActionListener {
 		open = new JButton("Open",new ImageIcon(this.getClass().getResource("/icons/Add Folder-24.png")));
 		newFile = new JButton("New",new ImageIcon(this.getClass().getResource("/icons/Create New-24.png")));
 		pencil = new JButton("Pencil",new ImageIcon(this.getClass().getResource("")));
-		line = new JButton("Line", new ImageIcon(this.getClass().getResource("")));
-		rectangle = new JButton("Rectangle", new ImageIcon(this.getClass().getResource("")));
-		circle = new JButton("Circle", new ImageIcon(this.getClass().getResource("")));
+		line = new JButton("Linea", new ImageIcon(this.getClass().getResource("")));
+		rectangle = new JButton("Rectangulo", new ImageIcon(this.getClass().getResource("")));
+		circle = new JButton("Circulo", new ImageIcon(this.getClass().getResource("")));
 		text = new JButton("Text",new ImageIcon(this.getClass().getResource("/icons/Type-24.png")));
 		erase = new JButton("Erase", new ImageIcon(this.getClass().getResource("/icons/Eraser-24.png")));
 		undo = new JButton("Undo", new ImageIcon(this.getClass().getResource("/icons/Undo-24.png")));
 		redo = new JButton("Redo", new ImageIcon(this.getClass().getResource("/icons/Redo-24.png")));
-		clear = new JButton("Clear",new ImageIcon(this.getClass().getResource("")));
+		clear = new JButton("Limpiar",new ImageIcon(this.getClass().getResource("")));
 		
 		String[] items = { "Line Width","1", "2", "3", "4", "5", "6", "7", "8" };
 		
@@ -106,7 +106,7 @@ public class ToolBar implements ActionListener {
 		// toolBar.add(open);
 		// toolBar.add(save);
 		toolBar.addSeparator();
-		toolBar.add(pencil);
+		//toolBar.add(pencil);
 		toolBar.add(line);
 		toolBar.add(rectangle);
 		toolBar.add(circle);
